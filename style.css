@@ -31,7 +31,10 @@ body, html {
 .col h1 {
     color: #ea7186;
     font-size: 40px;
+}
 
+.btn.btn-primary {
+    background-color: #ea7186
 }
 
 .float-left {
