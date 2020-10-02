@@ -12,6 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!--Font link to google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Slab:wght@400;600&display=swap" rel="stylesheet">
+   
 
     <!--linked css page of personal styles-->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -43,24 +44,49 @@
             </div>
           </nav>
     </header>
-   <!--Need to add Contact Form-->
-    <main role="main" class="flex-shrink-0">
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <h1>Contact Me:</h1>
-            <p>
-                Add Bootstrap Contact Form
-            </p>
-                </div>
-           </div>
+   <!--Bootstrap Contact Form: provided by https://mdbootstrap.com/docs/jquery/sections/contact/-->
+        <main role="main" class="flex-shrink-0">
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+      <!-- Form with header -->
+      <div class="card">
+        <div class="card-body">
+          <div class="form-header blue accent-1">
+            <h3 class="mt-2"><i class="fas fa-envelope"></i> Contact Me:</h3>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control">
+            <label for="form-name">Your name</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="text" id="form-email" class="form-control">
+            <label for="form-email">Your email</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form-Subject" class="form-control">
+            <label for="form-Subject">Subject</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-pencil-alt prefix grey-text"></i>
+            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+            <label for="form-text">Send message</label>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-light-blue">Submit</button>
+          </div>
         </div>
+      </div>
     </main>
 <!--Sticky footer from Bootstrap-->
     <footer class="fixed-bottom footer mt-auto py-3">
         <div class="container">
           <span>
               Created by Becca Blanton
+
             </span>
         </div>
       </footer>
