@@ -24,17 +24,16 @@ header h1 {
 }
 header nav {
     padding-top: 15px;
-    text align: center;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
+    font-size: 20px; }
 
-header nav ul {
+header nav {
     list-style-type: none;
     font-size:22px;
 }
 
-header nav ul li {
+header nav {
     display: inline-block;
     margin-left: 25px;
 }
