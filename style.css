@@ -9,31 +9,18 @@ body, html {
     background-color: #BD9DEA;
 }
 
-header {
+.navbar.navbar-dark {
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Amatic SC', cursive;
+    font-size: 20px;
     font-weight: 700;
-    background-color: #F2C76E;
-    color: #7A77B9;
-    border-bottom: 10px;
-    border-color: #ea7186;
 }
 
-header h1 {
-    text-align: left;
-    font-size: 48px;    
+.navbar-brand{
+    font-size: 30px;
+    color: #7A77B9;
 }
-header nav {
-    padding-top: 15px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-    font-size:22px;
-    display: inline-block;
-    margin-left: 25px;
- }
 
 .col {
     margin:10px;
