@@ -46,7 +46,7 @@
             </div>
           </nav>
     </header>
-   <!--Bootstrap Contact Form: provided by https://mdbootstrap.com/docs/jquery/sections/contact/-->
+   <!--Bootstrap Contact Form: provided by https://mdbootstrap.com/docs/jquery/sections/contact/ -->
         <main role="main" class="flex-shrink-0">
             <div class="container">
                 <div class="row">
@@ -54,31 +54,32 @@
       <!-- Form with header -->
       <div class="card">
         <div class="card-body">
-          <div class="form-header blue accent-1">
-            <h3 class="mt-2"><i class="fas fa-envelope"></i> Contact Me:</h3>
+          <div class="form-header">
+            <h1 class="mt-2"><i class="fas fa-envelope-open-text"></i> Contact Me:</h3>
           </div>
-          <div class="md-form">
-            <i class="fas fa-user prefix grey-text"></i>
-            <input type="text" id="form-name" class="form-control">
-            <label for="form-name">Your name</label>
+
+          <div class="md-form mb-0">
+            <input type="text" id="name" name="name" class="form-control">
+            <label for="name" class="">Your name  </label><i class="fas fa-user"></i>
+        </div>
+
+          <div class="md-form mb-0">
+            <input type="text" id="email" name="email" class="form-control">
+            <label for="email" class="">Your email  </label><i class="fas fa-envelope-open-text"></i>
+
           </div>
-          <div class="md-form">
-            <i class="fas fa-envelope prefix grey-text"></i>
-            <input type="text" id="form-email" class="form-control">
-            <label for="form-email">Your email</label>
-          </div>
-          <div class="md-form">
-            <i class="fas fa-tag prefix grey-text"></i>
-            <input type="text" id="form-Subject" class="form-control">
-            <label for="form-Subject">Subject</label>
-          </div>
-          <div class="md-form">
-            <i class="fas fa-pencil-alt prefix grey-text"></i>
-            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-            <label for="form-text">Send message</label>
-          </div>
+
+            <div class="md-form mb-0">
+              <input type="text" id="subject" name="subject" class="form-control">
+              <label for="subject" class="">Subject  </label><i class="fas fa-tag"></i>
+              </div>
+
+           <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message  </label><i class="fas fa-pencil-alt prefix grey-text"></i>
+                        </div>
           <div class="text-center">
-            <button class="btn btn-light-blue">Submit</button>
+            <button class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
