@@ -24,6 +24,9 @@
 * Containers in place for future projects completed.
 * used placeholders for coming soon once portfolio is built out.
 
+## Sticky Footer
+* added footer to the bottom of all pages with icon links to social media sites.
+
 
 ## Resources Used:
 1. Bootstrap for grid layout, nav bar, footer, forms, and portfolio: https://getbootstrap.com/
