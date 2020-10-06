@@ -34,6 +34,8 @@ body, html {
     font-size: 40px;
 }
 
+
+
 .btn.btn-primary {
     background-color: #ea7186
 }
@@ -61,4 +63,12 @@ section {
     color:#ea7186;
     opacity: 70%;
     text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .img-fluid.img-thumbnail.float-left {
+     border: 3px solid #BD9DEA;
+     padding: 1rem;
+    }
 }
