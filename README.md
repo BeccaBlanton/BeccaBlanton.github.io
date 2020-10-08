@@ -11,10 +11,11 @@
 * Designed basic About me front page including a container of Profile picture and snippet about me. Container created through use of bootstrap.
 * Created dropdown Nav bar used throughout all websites.
 * Included a sticky footer across all websites.
-
- * Used google fonts to add custom fonts to page.
+* adjusted img to adjust depending on size of device. 
+* Used google fonts to add custom fonts to page.
 
 ## Contact Page:
+
 * Made a contact page with use of bootstrap forms to email (form not currently synced to email)
 * font awesome icons used next to forms as well as labels
 * responsive page to fit all media sizes
