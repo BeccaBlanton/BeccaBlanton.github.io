@@ -52,7 +52,8 @@
                 <div class="row">
                   <div class="col">
       <!-- Form with header -->
-      <form>
+        <form action="https://formspree.io/f/xaylqavq" method="POST">
+          
         <div class="card">
         <div class="card-body">
           <div class="form-header">
@@ -60,27 +61,29 @@
           </div>
 
           <div class="md-form mb-0">
-            <input type="text" id="name" name="name" class="form-control">
-            <label for="name" class="">Your name  </label><i class="fas fa-user"></i>
+            <input type="text" id="name" name="name" class="form-control" required>
+            <label for="name">Your name  </label><i class="fas fa-user"></i>
         </div>
 
           <div class="md-form mb-0">
-            <input type="text" id="email" name="email" class="form-control">
-            <label for="email" class="">Your email  </label><i class="fas fa-envelope-open-text"></i>
+            <input type="text" id="email" name="_replyto" class="form-control" required>
+            <label for="email">Your email  </label><i class="fas fa-envelope-open-text"></i>
 
           </div>
 
             <div class="md-form mb-0">
-              <input type="text" id="subject" name="subject" class="form-control">
-              <label for="subject" class="">Subject  </label><i class="fas fa-tag"></i>
+              <input type="text" id="subject" name="subject" class="form-control" required>
+              <label for="subject">Subject  </label><i class="fas fa-tag"></i>
               </div>
 
            <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                             <label for="message">Your message  </label><i class="fas fa-pencil-alt prefix grey-text"></i>
                         </div>
           <div class="text-center">
-            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary">
+              <input type="submit" value="Send">
+            </button>
           </div>
         </div>
       </div>
