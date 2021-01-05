@@ -20,7 +20,8 @@
 
     <!--linked css page of personal styles-->
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <!--Link to cornify for Konami Code Easter Egg-->
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
     <title>Becca Blanton</title>
 
 </head>
@@ -82,6 +83,21 @@
             </span>
     </div>
   </footer>
+  <!--Code for Easter Egg-->
+  <script>
+    const pressed = [];
+    const secretCode = 'scarlett';
     
+    window.addEventListener('keyup', (e) => {
+      console.log(e.key);
+      pressed.push(e.key);
+      pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+      if (pressed.join('').includes(secretCode)) {
+        console.log('Yay Unicorns');
+        cornify_add();
+      }
+      console.log(pressed);
+    });
+    </script>
 </body>
 </html>
