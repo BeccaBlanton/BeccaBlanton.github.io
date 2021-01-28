@@ -16,6 +16,7 @@ body, html {
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
     font-weight: 700;
+    border-bottom: thick #ea7186 double;
 }
 
 .navbar-brand{
@@ -27,6 +28,10 @@ body, html {
     margin:10px;
     background-color: #EBE8E7;
     font-family: 'Josefin Slab', serif;
+    border-radius: 1rem;
+    border-style: double;
+    border-width: medium;
+    border-color: #7A77B9;
 }
 
 .col h1 {
@@ -47,11 +52,21 @@ body, html {
 section {
     margin: auto 30px;
 }
+
+.card.mx-auto {    
+width: 20rem;
+height: 32rem;
+margin: 1rem;
+border: double;
+border-radius: 1rem;
+border-color: #7A77B9;
+}
 .footer {
     background-color: #7A77B9;
     text-align: center;
     font-size: 30px;
     word-spacing: 20px;
+    border-top:thick #ea7186 double;
 }
 
 .fa-github, .fa-linkedin, .fa-envelope{
